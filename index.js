@@ -497,7 +497,7 @@
     ddLoc = gl.getUniformLocation(program, 'diffusePosition');
 
     acLoc = gl.getUniformLocation(program, 'ambientColor');
-    ac = glMatrix.vec3.fromValues(0.17, 0.41, 0.03);
+    ac = glMatrix.vec3.fromValues(0.16, 0.01, 0.56);
     gl.uniform3fv(acLoc, ac);
 
     // Uniform untuk modelMatrix vektor normal
